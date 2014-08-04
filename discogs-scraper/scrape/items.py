@@ -5,3 +5,6 @@
 
 from scrapy.item import Item, Field
 
+class DiscogsRecord(Item):
+	title = Field()
+	label = Field()
